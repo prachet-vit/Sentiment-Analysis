@@ -45,8 +45,8 @@ user_text = st.text_area("Enter your text here:")
 def load_model_and_vectorizer(source):
     try:
         #load the trained model
-        model_path = f'C:/Users/prachet/Downloads/NLP Project 1 Twitter Companies Sentiment Analysis/models/model_{source}.joblib'
-        vectorizer_path = f'C:/Users/prachet/Downloads/NLP Project 1 Twitter Companies Sentiment Analysis/models/vectorizer_{source}.joblib'
+        model_path = f'models/model_{source}.joblib'
+        vectorizer_path = f'models/vectorizer_{source}.joblib'
         model = joblib.load(model_path)
         vectorizer = joblib.load(vectorizer_path)
         return model , vectorizer
