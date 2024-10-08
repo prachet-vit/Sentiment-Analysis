@@ -18,7 +18,7 @@ st.title("Sentiment Analysis App")
 st.write("This app predicts the sentiment of text based on different sources")
 
 #define the path of models
-models_dir = Path('C:/Users/prachet/Downloads/NLP Project 1 Twitter Companies Sentiment Analysis/models')
+models_dir = Path('models')
 
 #check if model dir exists
 if not models_dir.exists():
